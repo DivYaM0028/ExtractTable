@@ -1,0 +1,10 @@
+{%extends 'layout.html' %}
+{% block body %}
+    <div style="text-align: center">
+    <h1>Pages</h1>
+    {% for page in pages %}
+    <h3>{{page}}
+    </h3>
+    {% endfor %}
+    </div>
+ {% endblock %}
